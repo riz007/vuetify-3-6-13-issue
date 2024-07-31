@@ -71,7 +71,7 @@ onMounted(async () => {
 - Reloading the page directly updates the isLoading value correctly in the child component.
 
 ### Working Example
-Wrapping the child component in a <div> in the parent template solves the issue.
+Wrapping the child component in a `<div>` in the parent template solves the issue.
 
 ```
 <template>
