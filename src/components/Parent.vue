@@ -28,9 +28,5 @@ onMounted(async () => {
 </script>
 
 <template>
-  <h2>Vuetify Axios Issue</h2>
-  <p>
-    If it doesn't work then a circular loader (indeterminate) will appear below:
-  </p>
   <Child title="Child" :is-loading="isLoading" :data="data" />
 </template>
